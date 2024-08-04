@@ -1,0 +1,253 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.medsos {
+  padding: 5px 0;
+  background-color: rgb(140, 97, 160);
+}
+
+.medsos ul li {
+  display: inline-block;
+  color: white;
+  margin-right: 10px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+header h1 {
+  float: left;
+  padding: 15px 0;
+  color: rgb(127, 84, 154);
+}
+
+header ul {
+  float: right;
+}
+
+header ul li {
+  display: inline-block;
+}
+
+header ul li a {
+  padding: 25px 20px;
+  display: inline-block;
+}
+
+header ul li a:hover {
+  background-color: rgb(127, 84, 154);
+  color: white;
+}
+
+.active {
+  background-color:rgb(127, 84, 154);
+  color: white;
+}
+
+.gambar {
+  height: 70vh;
+  background-image: url("bg.jpeg");
+  background-size: cover;
+  background-position: top ;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gambar:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(173, 82, 173, 0.5);
+}
+
+.gambar h2 {
+  color: white;
+  z-index: 1;
+  padding: 20px 25px;
+  border: 3px solid white;
+}
+
+section {
+  padding: 50px 0;
+
+}
+.submenu{
+  background-color: rgb(127, 84, 154);
+  color: azure;
+}
+.container2{
+  width: 80%;
+  margin: 0 auto;
+}
+.container2:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.about {
+  background-color: rgb(227, 220, 232);
+}
+.about h3{
+  text-align: center;
+  padding: 40px 0;
+  color: rgb(127, 84, 154);
+}
+.about p{
+  text-align: left;
+  padding: 20px;
+  word-spacing: 2px;
+  line-height: 30px;
+}
+.service h3{
+  text-align: center;
+  padding: 50px 0;
+  color: rgb(127, 84, 154);
+}
+.foto{
+  position: center;
+  height: 250px;
+
+}
+.submenu2{
+  background-color: rgb(127, 84, 154);
+  color: azure;
+}
+.container3{
+  width: 80%;
+  margin: 0 auto;
+}
+.container3:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+
+.contact h3{
+  text-align: center;
+  padding: 20px 0;
+  color: rgb(127, 84, 154);
+}
+.submenu3{
+  background-color: rgb(127, 84, 154);
+  color: azure;
+}
+.container4{
+  width: 80%;
+  margin: 0 auto;
+}
+.container4:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.contact li {
+  padding: 10px;
+  text-align: left;
+  word-spacing: 1px;
+  line-height: 20px;
+  background-color: rgb(127, 84, 154);
+  text-align: center;
+  margin: 6px 0;
+  padding: 10px;
+  border-radius: 2px;
+  transition: background-color 0.3s;
+}
+.contact p{
+  text-align: left;
+  padding: 20px;
+  word-spacing: 2px;
+  line-height: 30px;
+}
+.contact {
+  background-color: rgb(227, 220, 232);
+}
+.service {
+  background-color: rgb(227, 220, 232);
+}
+
+.box {
+ color:rgb(127, 84, 154) ; 
+}
+.box::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.box .col-4 {
+  width:25% ;
+  padding:20px ;
+  box-sizing: border-box;
+  text-align: center;
+  float: left;
+}
+.icon {
+  width: 70px;
+  height: 70px;
+  border: 1px solid ;
+  border-radius:50% ;
+  text-align: center;
+  line-height: 70px;
+  font-size: 20px;
+  margin: 0 auto;
+}
+.box .col-4 h4 {
+  margin:20px 0 ;
+}
+
+
+.kotak {
+  color:rgb(127, 84, 154) ; 
+ }
+ .kotak::after {
+   content: '';
+   display: block;
+   clear: both;
+ }
+ .kotak .col-4 {
+   width:30% ;
+   padding:20px ;
+   box-sizing: border-box;
+   text-align: center;
+   float: left;
+ }
+ .icon {
+   width: 70px;
+   height: 70px;
+   border: 1px solid ;
+   border-radius:50% ;
+   text-align: center;
+   line-height: 70px;
+   font-size: 20px;
+   margin: 0 auto;
+ }
+ .kotak .col-4 h4 {
+   margin:30px 0 ;
+ }
+footer {
+  padding: 30px 0;
+  background-color: rgb(127, 84, 154) ;
+  color: #fff;
+  text-align: center;
+}
+
